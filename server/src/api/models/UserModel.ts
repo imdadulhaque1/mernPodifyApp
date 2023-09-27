@@ -40,7 +40,6 @@ const userSchema = new Schema<UserInterface>(
       type: Boolean,
       default: false,
     },
-
     favourites: [
       {
         type: Schema.Types.ObjectId,
